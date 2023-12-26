@@ -1,0 +1,8 @@
+{
+  "name": "Harmonic-ui-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "amir-dehghani",
+  "license": "MIT",
+  "private": false
+}
