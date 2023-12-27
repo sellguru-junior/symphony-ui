@@ -3,6 +3,14 @@
   "version": "1.0.1",
   "main": "index.js",
   "author": "amir-dehghani",
+  "types": "index.d.ts",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "react-spinners": "^0.13.8"
+  },
+  "keywords": ["react","typescript","component library"]
 }
