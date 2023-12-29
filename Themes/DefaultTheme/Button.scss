@@ -1,0 +1,7 @@
+.Acord-Button-container {
+  @apply text-white disabled:cursor-not-allowed bg-primary-color leading-[19.36px] text-[16px] font-[500]  rounded-[5px] w-[100%] h-[50px] #{!important};
+}
+
+.Acord-Button-container-disabled {
+  @apply opacity-[50%] #{!important};
+}

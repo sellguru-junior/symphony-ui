@@ -1,0 +1,18 @@
+.Acord-Accordion-downVector {
+  @apply bg-[url('/Acord/downVector.svg')] w-[16px]  transition-all duration-500 h-[8px];
+}
+.Acord-Accordion-isActive {
+  @apply border-b  border-secondary-color/20;
+}
+.Acord-Accordion-arrowDirection {
+  @apply rotate-180;
+}
+.Acord-Accordion-titleContainer {
+  @apply flex items-center justify-between p-4 cursor-pointer;
+}
+.Acord-Accordion-title {
+  @apply leading-[24px] font-[700] text-secondary-color text-[16px];
+}
+.Acord-Accordion-content {
+  @apply p-4 leading-[24px] font-[400] text-[14px];
+}
