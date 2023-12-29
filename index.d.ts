@@ -1,12 +1,35 @@
-declare module 'symphony-ui'
-declare let  Button: JSX.Element
-declare let  VoiceRecorder: JSX.Element
-declare let  TextField: JSX.Element
-declare let  Checkbox: JSX.Element
-declare let  FileUploadr: JSX.Element
-declare let  Suggestions: JSX.Element
-declare let  HorizontalSuggestions: JSX.Element
-declare let  ChatTextInput: JSX.Element
-declare let  ChatSection: JSX.Element
-declare let  Setting: JSX.Element
-declare let  TextArea: JSX.Element
+import Button from "./Acord/Button";
+import HelloWorld from "./Acord/HelloWorld";
+import VoiceRecorder from "./Acord/VoiceRecordr";
+import TextField from "./Acord/TextField";
+import Checkbox from "./Acord/Checkbox";
+import FileUploadr from "./Acord/FileUploader";
+import Suggestions from "./Acord/Suggestions";
+import HorizontalSuggestions from "./Acord/HorizontalSuggestions";
+import ChatTextInput from "./Acord/ChatTextInput";
+import ChatSection from "./Acord/ChatSection";
+import Setting from "./Acord/Setting";
+import LanguageModal from "./Acord/LanguageModal";
+import LogoutModal from "./Acord/LogoutModal";
+import ChatInformation from "./Acord/ChatInformation";
+import Accordion from "./Acord/Accordion";
+import TextArea from "./Acord/TextArea";
+
+export {
+    Button,
+    Accordion,
+    ChatInformation,
+    ChatSection,
+    ChatTextInput,
+    Checkbox,
+    FileUploadr,
+    HelloWorld,
+    HorizontalSuggestions,
+    LanguageModal,
+    LogoutModal,
+    Setting,
+    Suggestions,
+    TextArea,
+    TextField,
+    VoiceRecorder,
+}
