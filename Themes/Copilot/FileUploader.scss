@@ -28,3 +28,33 @@
 .Copilot-FileUploader-uploadBox-file{
     @apply w-full mt-[6px] mb-[6px] flex justify-between px-[12px] items-center h-[36px] rounded-[4px] border border-[#11AF22]
 }
+.Copilot-FileUploader-uploadBox-button-container{
+    @apply relative bottom-2 w-[-webkit-fill-available]
+}
+
+.Copilot-FileUploader-uploadBox-trashIcon{
+    @apply w-4 h-4 flex justify-center items-center cursor-pointer bg-[#1C1C1C] opacity-10 rounded-full
+}
+
+.Copilot-FileUploader-itemList-title{
+    @apply text-sm text-[#0F0F0F]
+}
+.Copilot-FileUploader-itemList-items{
+    @apply overflow-auto mt-[6px] max-h-[150px]
+}
+
+.Copilot-FileUploader-itemList-titleBox{
+    @apply text-[#676767] text-sm mt-5
+}
+
+.Copilot-FileUploader-uploader-input{
+    @apply opacity-0 w-full h-full absolute top-0
+}
+
+.Copilot-FileUploader-uploader-suportText{
+    @apply text-[#7B93AF] text-center text-[12px]
+}
+
+.Copilot-FileUploader-uploader-suportText-container{
+    @apply flex justify-center items-center mt-2
+}
