@@ -11,7 +11,7 @@
 
 ## Documentation
 
-For full documentation, visit [**samphonie-ui.com**](samphonie-ui.com).
+For full documentation, visit [**storyBook**](http://195.248.242.187:8086/).
 
 ### Installing the latest version
 
@@ -21,13 +21,66 @@ You can install the latest version by using:
  or
 - `yarn add symphony-ui`
 
+### config
+- in tailwind.config.ts:
+```javascript
+/** @type  {import('tailwindcss').Config} */
 
+export  default  {
+
+	content: ["./index.html",  "./src/**/*.{js,ts,jsx,tsx}"],
+
+	theme:  {
+
+		extend:  {
+
+			colors:  {
+
+				"primary-color":  "#0CBC84",
+
+				"secondary-color":  "#253343",
+
+				"placeholder-color":  "#92A7C1",
+
+				"input-color":  "#F5F7FA",
+
+			},
+
+		},
+
+	},
+
+	plugins: [],
+
+};
+```
+- in App.ts:
+```javascript
+import 'symphony-ui/Themes/index.scss';
+```
+
+### use
+```javascript
+	import { Button } from 'symphony-ui'
+	
+	const MyComonent = () => {
+		return 
+		(
+		<>
+			<Button  />
+			<Button theme={'Custom'} />
+		</>
+			
+			
+		)
+	}
+```
 
 ## Packages
 
 | Name                                                                                                                 |                                                              Version                                                              |                                                              Downloads                                                               |
 | :------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
-| [`symphony-ui/react`]()             |       [1.0.0](https://www.npmjs.com/package/@headlessui/react)       |       1
+| [`symphony-ui/react`]()             |       [1.0.7]()       |       1
 
 ## Community
 

@@ -1,8 +1,10 @@
 {
   "name": "symphony-ui",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "main": "index.js",
   "author": "amir-dehghani",
+  "repository":"https://github.com/sellguru-junior/symphony-ui",
+  "homepage": "https://github.com/sellguru-junior/symphony-ui",
   "types": "index.d.ts",
   "license": "MIT",
   "private": false,
@@ -12,5 +14,6 @@
   "dependencies": {
     "react-spinners": "^0.13.8"
   },
+  
   "keywords": ["react","typescript","component library"]
 }
