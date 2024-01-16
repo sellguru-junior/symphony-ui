@@ -9,6 +9,7 @@ import HorizontalSuggestions from "./HorizontalSuggestions";
 import ChatTextInput from "./ChatTextInput";
 import ChatSection from "./ChatSection";
 import Setting from "./Setting";
+import Spinner from "./Spinner";
 import LanguageModal from "./LanguageModal";
 import LogoutModal from "./LogoutModal";
 import ChatInformation from "./ChatInformation";
@@ -27,6 +28,7 @@ export {
   ChatTextInput,
   ChatSection,
   Setting,
+  Spinner,
   LanguageModal,
   LogoutModal,
   ChatInformation,
