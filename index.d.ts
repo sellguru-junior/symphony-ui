@@ -9,6 +9,7 @@ import HorizontalSuggestions from "./Acord/HorizontalSuggestions";
 import ChatTextInput from "./Acord/ChatTextInput";
 import ChatSection from "./Acord/ChatSection";
 import Setting from "./Acord/Setting";
+import Spinner from "./Acord/Spinner";
 import LanguageModal from "./Acord/LanguageModal";
 import LogoutModal from "./Acord/LogoutModal";
 import ChatInformation from "./Acord/ChatInformation";
@@ -28,6 +29,7 @@ export {
     LanguageModal,
     LogoutModal,
     Setting,
+    Spinner,
     Suggestions,
     TextArea,
     TextField,
