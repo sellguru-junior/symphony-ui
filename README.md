@@ -18,77 +18,69 @@ For full documentation, visit [**storyBook**](http://195.248.242.187:8086/).
 You can install the latest version by using:
 
 - `npm i symphony-ui`
- or
+  or
 - `yarn add symphony-ui`
 
 ### config
+
 - in tailwind.config.ts:
+
 ```javascript
 /** @type  {import('tailwindcss').Config} */
 
-export  default  {
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 
-	content: ["./index.html",  "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "primary-color": "#0CBC84",
 
-	theme:  {
+        "secondary-color": "#253343",
 
-		extend:  {
+        "placeholder-color": "#92A7C1",
 
-			colors:  {
+        "input-color": "#F5F7FA",
+      },
+    },
+  },
 
-				"primary-color":  "#0CBC84",
-
-				"secondary-color":  "#253343",
-
-				"placeholder-color":  "#92A7C1",
-
-				"input-color":  "#F5F7FA",
-
-			},
-
-		},
-
-	},
-
-	plugins: [],
-
+  plugins: [],
 };
 ```
+
 - in App.ts:
+
 ```javascript
-import 'symphony-ui/Themes/index.scss';
+import "symphony-ui/Themes/index.scss";
 ```
 
 ### use
+
 ```javascript
-	import { Button } from 'symphony-ui'
-	
-	const MyComonent = () => {
-		return 
-		(
-		<>
-			<Button  />
-			<Button theme={'Custom'} />
-		</>
-			
-			
-		)
-	}
+import { Button } from "symphony-ui";
+
+const MyComonent = () => {
+  return;
+  <>
+    <Button />
+    <Button theme={"Custom"} />
+  </>;
+};
 ```
 
 ## Packages
 
-| Name                                                                                                                 |                                                              Version                                                              |                                                              Downloads                                                               |
-| :------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
-| [`symphony-ui/react`]()             |       [1.0.7]()       |       1
+| Name                    |  Version  | Downloads |
+| :---------------------- | :-------: | :-------: |
+| [`symphony-ui/react`]() | [1.0.7]() |    200    |
 
 ## Community
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discuss  Symphony Ui on GitHub]()
-
+[Discuss Symphony Ui on GitHub]()
 
 ## Contributing
 
-If you're interested in contributing to  Symphony Ui, please read our [contributing docs]() **before submitting a pull request**.
+If you're interested in contributing to Symphony Ui, please read our [contributing docs]() **before submitting a pull request**.
